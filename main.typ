@@ -52,7 +52,7 @@
 
 === Google Summer of Code 2026 Contributor, LabLua
 
-- Improved the build process for Pallene, a statically typed, ahead-of-time compiled sister language to Lua.
+- #link("https://summerofcode.withgoogle.com/programs/2026/projects/LJlrW9TY")[Improved] the build process for Pallene, a statically typed, ahead-of-time compiled sister language to Lua.
 - Vendored dependencies, wrote new build and install scripts, retired the old ones, and updated the documentation.
 
 == Projects
