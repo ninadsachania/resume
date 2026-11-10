@@ -42,7 +42,7 @@
   company: "UpSaaS Technologies",
   dates: dates-helper(start-date: "January 2023", end-date: "May 2023"),
 )
-- Primary developer and maintainer of #link("https://www.tweetlify.co/")[Tweetlify], a Twitter growth platform, responsible for building new features, fixing bugs, deploying the application, and writing documentation.
+- Primary developer and maintainer of Tweetlify, a Twitter growth platform, responsible for building new features, fixing bugs, deploying the application, and writing documentation.
 - Shipped discount codes, INR payments, a rate limiter, analytics, and a custom logger that reports to Slack.
 
 == Open Source
