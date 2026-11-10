@@ -124,4 +124,4 @@
 
 - Spoken Languages: English, Hindi, Gujarati
 - Licensed amateur radio operator: ASOC, General Grade (call sign *VU27NS*)
-- #link("https://www.youtube.com/@ninadsachania")[YouTube channel] on programming, with *1.6K* subscribers and *1M+* views
+- #link("https://www.youtube.com/@ninadsachania")[YouTube channel] on programming, with *1.6K* subscribers and *1.5M+* views
