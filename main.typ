@@ -106,7 +106,7 @@
 
 == Achievements and Awards
 
-- Ranked *305th of \~7,000* teams in #link("https://picoctf.org/competitions/2024-spring.html")[picoCTF 2024], a cybersecurity competition hosted by CMU.
+- Ranked *305th of \~11,000* teams in #link("https://learn.cylabacademy.org/events/73/scoreboards?page=7")[picoCTF 2024], a cybersecurity competition hosted by CMU.
 - Ranked in the top *0.2%* of users on #link("https://open.kattis.com/users/njs0707")[Kattis], a competitive programming platform.
 - Won *2#super[nd] place* at Kaizen '23, L.D. College of Engineering's institute-wide tech fest, for work done during the final-semester internship.
 - Received funding for the E-HealthCard startup under GTU's *Student Startup and Innovation Policy*.
