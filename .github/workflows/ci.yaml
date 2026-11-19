@@ -1,0 +1,39 @@
+name: Build resume
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            shell: pwsh
+            typst: .\bin\typst.exe
+          - os: ubuntu-latest
+            shell: bash
+            typst: ./bin/typst
+
+    runs-on: ${{ matrix.os }}
+
+    defaults:
+      run:
+        shell: ${{ matrix.shell }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Build PDF
+        run: ${{ matrix.typst }} compile main.typ Ninad_Sachania_Resume.pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v6
+        with:
+          name: resume-${{ matrix.os }}
+          path: Ninad_Sachania_Resume.pdf
+          if-no-files-found: error
